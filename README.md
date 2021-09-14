@@ -14,7 +14,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 
 # Github Repository
-https://github.com/rlw950/css-challenge
+https://github.com/rlw950/02-css-challenge
 
 ## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
