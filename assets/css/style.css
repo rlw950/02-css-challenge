@@ -80,31 +80,33 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-div flex-item {
-    border-left: lightslategray;
-    border-width: 5xp;
-
-}
-
 footer {
-    height: 100px;
+    height: 200px;
     width: 100%;
-    padding: 40px 120px;
+    padding: 40px 80px;
     display: flex;
+    text-align: right;
 }
 
 footer h2 {
+    height: 200px;
+    width: 250px;
+    padding: 0px 60px 30px 30px;
+    border-right-style: solid;
+    border-color: lightslategray;
+    border-width: 3px;
     color: var(--secondary-color);
     font-size: 50px;
+    text-align: right;
     }
 
 footer div {
-    padding: 0px 40px;
+    padding: 0px 20px;
     line-height: 1.5;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: initial;
     align-items: center;
     list-style: none;
     font-size: 20px;
@@ -114,6 +116,7 @@ footer div {
 footer span {
     color: var(--secondary-color);
     text-decoration: underline;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -141,14 +144,20 @@ section {
     height: 200px;
     padding: 40px 120px;
     display: flex;
+    text-align: right;
 }
 
 .about-me h2 {
     font-size: 50px;
+    padding: 0px 30px 30px 30px;
+    height: 170px;
+    border-right-style: solid;
+    border-color: lightslategray;
+    border-width: 3px;
 }
 
 .about-me div {
-    padding: 0px 60px;
+    padding: 0px 30px;
     line-height: 1.5;
     text-align: left;
     display: flex;
@@ -159,111 +168,101 @@ section {
     font-size: 20px;
 }
 
-.about-me div.flex-item {
+/* .about-me div.flex-item {
     border-left-style: solid;
     border-color: lightslategray;
     border-width: 3px;
-}
+} */
 
 /* main section begins */
 
 main {
     width: 100%;
-    padding: 50px 120px;
+    height: 1320px;
+    padding: 60px 120px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+    text-align: right;
 }
 
 main h2 {
     font-size: 50px;
-}
-
-main div {
-    padding: 0, 60px;
-    text-align: right;
-    height: 1000px;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.work div.flex-container {
-    padding: 20px, 20px, 20px, 60px;
-    text-align: right;
-    height: 1000px;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.work div.content {
-    padding: 20px, 20px, 20px, 60px;
-    text-align: right;
-    height: 500px;
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.work div.flex-container {
-    padding: 20px;
-    border-left-style: solid;
+    padding: 0px 30px 30px 50px;
+    border-right-style: solid;
     border-color: lightslategray;
     border-width: 3px;
 }
 
-.surf-report {
+main div {
+    padding: 0px 30px;
+    height: 1000px;
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.led-wall {
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
-}
-
-.calculator {
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
-}
-
-.pastel-pretzel {
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
-}
-
-.run-buddy {
-    font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
-}
-
-
-/* UTILITIES */
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
+.work div.flex-container {
+    padding: 0px, 20px, 20px, 60px;
     text-align: right;
+    height: 500px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.flex-row {
+div.content {
+    padding: 20px, 20px, 20px, 60px;
+    text-align: right;
+    height: 100px;
+    font-size: 15px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
+div.surf-report {
+    font-size: 20px;
+    height: 400px;
+    width: 800px;
+    background-image: url("../images/hero-bg.jpg");
+    display: block;
+}
+
+div.led-wall {
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/hero-bg.jpg");
+    display: block;
+}
+
+div.calculator {
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/hero-bg.jpg");
+    display: block;
+}
+
+div.pastel-pretzel {
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/hero-bg.jpg");
+    display: block;
+}
+
+div.pastel-pretzel {
+    font-size: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/hero-bg.jpg");
+    display: block;
+}
+
+div.surf-report p, div.led-wall p, div.calculator p, div.pastel-pretzel p, div.pastel-pretzel p {
+    font-size: 15px;
+}
